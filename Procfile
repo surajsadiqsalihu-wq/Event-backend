@@ -1,1 +1,1 @@
-web: gunicorn cfehome.wsgi:application
+web: gunicorn my_events.wsgi:application

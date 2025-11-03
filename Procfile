@@ -1,1 +1,1 @@
-web: gunicorn my_events.wsgi:application
+web: gunicorn --bind 0.0.0.0:$PORT my_events.wsgi:application

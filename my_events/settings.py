@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/5.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
-import dj_database_url
+
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -155,3 +155,13 @@ SIMPLE_JWT = {
 
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+  # loads .env file
+
+# SECRET_KEY = 'django-insecure-a_-pomv7w3&_hkzwj#4ub7-zp+i4d3c@d-sdo$!#ui2*)s6kmo'
+
+# # SECURITY WARNING: don't run with debug turned on in production!
+# DEBUG = False
+
+# ALLOWED_HOSTS = ['.onrender.com', '127.0.0.1', 'localhost']
+
